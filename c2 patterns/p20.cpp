@@ -1,14 +1,13 @@
 /*
-**********
-****  ****
-***    ***
-**      **
-*        *
 *        *
 **      **
 ***    ***
 ****  ****
 **********
+****  ****
+***    ***
+**      **
+*        *
 */
 
 #include<bits/stdc++.h>
@@ -20,37 +19,32 @@ int main(){
     cin>>a;
     
     for (int i=0;i<a/2;i++){
-        for(int j=a/2-i;j>0;j--){
-            cout<<"*";
-        }
-        
-        for(int j=i*2;j>0;j--){
-            cout<<" ";
-
-        }
-        for(int j=a/2-i;j>0;j--){
-            cout<<"*";
-        }
-    
-        
-        cout<<endl;
-    }
-
-// lower half part
-
-    for(int i=0;i<a/2;i++){
-        for(int j=0;j<i+1;j++){
-            cout<<"*";
+        for(int j=0;j<=i;j++){
+        cout<<"*";
         }
         for(int k=(a-2)-(2*i);k>0;k--){
             cout<<" ";
         }
-        for(int l=0;l<=i;l++){
-            cout<<"*";
+         for(int j=0;j<=i;j++){
+        cout<<"*";
         }
-        
         cout<<endl;
     }
-    
+
+// lower
+
+    for(int i=1;i<a/2;i++){
+        for(int j=a/2-i;j>0;j--){
+            cout<<"*";
+        }
+        for(int k=2*i;k>0;k--){
+            cout<<" ";
+        }
+        for(int j=a/2-i;j>0;j--){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+  
         
 }
