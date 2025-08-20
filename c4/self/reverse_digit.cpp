@@ -12,10 +12,10 @@ int main(){
         d= (d*10)+(j%10);       
         j=j/10;
         if (d>INT_MAX || d< INT_MIN){ // expected case for overflow
-            return 0;
+            cout<< 0;
         }
     }
-    return (int)d;
+    cout<< (int)d;
     
 
 }
