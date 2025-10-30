@@ -1,4 +1,4 @@
-// just insert the unique element in the same array and after rest elemnts same in array
+// Q- just insert the unique element in the same array and after rest elemnts same in array
 #include<bits/stdc++.h>
 using namespace std;
 
