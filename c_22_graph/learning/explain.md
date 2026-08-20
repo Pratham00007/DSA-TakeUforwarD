@@ -71,3 +71,28 @@ its 4 graphs and can be
 skipped 2,3,4 bcs visited when 1 passed
 
 ![alt text](image-22.png)
+
+
+g-5 BFS
+
+![alt text](image-23.png)
+
+at distance 1
+
+![alt text](image-24.png)
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
+
+tc
+![alt text](image-30.png)
+
+sc
+O(3n)=O(n)
