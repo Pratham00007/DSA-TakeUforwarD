@@ -96,3 +96,29 @@ tc
 
 sc
 O(3n)=O(n)
+
+g-6 DFS
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+we can travell to neighbour with help of adj. list
+
+![alt text](image-34.png)
+depend on adj list how traversal formed
+in case of there is ring or two way traversal possible
+
+![alt text](image-36.png)
+![alt text](image-35.png)
+
+![alt text](image-37.png)
+
+![alt text](image-38.png)
+
+for undirected graph
+![alt text](image-39.png)
+bcs everyone calling neighbour
+![alt text](image-40.png)
