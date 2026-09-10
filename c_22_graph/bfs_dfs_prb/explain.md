@@ -70,3 +70,29 @@ jiska 2 hai uske adj ko 3 karna hai
 ![alt text](image-29.png)
 
 ![alt text](image-30.png)
+
+
+4_detect_cycle_bfs
+
+![alt text](image-31.png)
+6 and 5 reaches 7  = collide
+
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+![alt text](image-34.png)
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+![alt text](image-37.png)
+
+graph in components
+
+![alt text](image-38.png)
+
+![alt text](image-39.png)
+
+![alt text](image-40.png)
